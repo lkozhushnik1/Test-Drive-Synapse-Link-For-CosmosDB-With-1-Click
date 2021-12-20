@@ -1,16 +1,16 @@
 {
 	"name": "CosmosDBLink",
-	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "CosmosDb",
 		"typeProperties": {
-			"connectionString": "",
-			"encryptedCredential": ""
+			"accountEndpoint": "https://cosmos-save-nemo-dev.documents.azure.com:443/",
+			"database": "sampledb"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
 			"type": "IntegrationRuntimeReference"
 		}
-	}
+	},
+	"type": "Microsoft.Synapse/workspaces/linkedservices"
 }
